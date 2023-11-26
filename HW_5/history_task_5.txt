@@ -1,0 +1,10 @@
+   0 vi /tmp/file.txt
+   1 ls -l /tmp
+   2 df -h | head -3 >> /tmp/file.txt
+   3 chmod g+w,u-r,o+x /tmp/file.txt
+   4 ls -l /tmp
+   5 history >> history_task_5.txt
+
+-----------------------------------------
+   6 export_file history_task_5.txt
+   7 export_file /tmp/file.txt
