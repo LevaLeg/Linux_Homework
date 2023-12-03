@@ -1,0 +1,29 @@
+1. touch myfirstbashscript.sh
+
+2. ls -l
+
+3. chmod 744 myfirstbashscript.sh
+
+4. ls -l
+
+5. export USER=Lev
+
+6. env
+
+7. nano myfirstbashscript.sh
+
+________________________________
+8. -в файле сценария-
+
+#!/bin/bash
+
+date
+
+echo "Hello $USER!"
+
+pwd
+________________________________
+Ctrl + X
+
+9. ./myfirstbashscript.sh
+
